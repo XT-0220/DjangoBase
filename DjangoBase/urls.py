@@ -16,6 +16,13 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+
+# 总路由的所有信息
+from django.urls import path, include
+
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    # url(r'^admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
+    #注册子路由     
+    path('user/',include('user.urls'))
 ]
