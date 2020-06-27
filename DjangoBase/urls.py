@@ -24,5 +24,7 @@ urlpatterns = [
     # url(r'^admin/', admin.site.urls),
     # path('admin/', admin.site.urls),
     #注册子路由     
-    path('',include('user.urls'))
+    path('',include('user.urls')),
+
+    path('',include('request_response.urls')),
 ]

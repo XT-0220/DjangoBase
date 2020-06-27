@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 # 导入python标准库中的操作系统模块：使用os模块可以操作系统文件，配置文件中会用到
-import os
+import os,sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 # 默认是当前工程的根目录=找到当前的配置文件的绝对路径，再取取他的上两级目录路径（BASE_DIR是根据settings.py所在目录的变化而变化的）
@@ -18,6 +18,8 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 print('BASE_DIR : %s' , BASE_DIR)
+
+sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -53,6 +55,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'user',
+    'request_response',
 
 ]
 # 中间件
