@@ -10,3 +10,12 @@ class RegisterView(View):
     def get(self,request):
 
         return http.HttpResponse('注册')
+
+
+class LoginView(View):
+
+    def get(self,request):
+        return http.HttpResponse('登录')
+
+    def post(self,request):
+        return http.HttpResponse('登录')
