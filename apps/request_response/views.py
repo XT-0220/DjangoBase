@@ -14,6 +14,10 @@ class QueryStrView(View):
 
 # 表单类型请求体数据(Form Data)
 class FormDataView(View):
-    def get(self):
 
-        return http.HttpResponse()
+    def post(self,request):
+
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+
+        return http.HttpResponse('表单数据：%s-%s' % (username,password ))
