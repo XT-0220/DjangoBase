@@ -1,7 +1,7 @@
 import json
 
 from django import http
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Create your views here.
 from django.views import View
@@ -70,3 +70,20 @@ class JsonResponseView(View):
             'age': 20
         }
         return http.JsonResponse(dist_data)
+
+
+# redirect()：重定向
+
+class RedirectView(View):
+
+
+    def get(self,request):
+
+        return http.HttpResponse('重定向')
+
+
+class TestRedirectView(View):
+
+    def post(self,request):
+
+        return redirect('/redirect/')
