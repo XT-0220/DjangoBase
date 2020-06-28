@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ae16e747-3657-4f7e-8eca-f9d2c0c9fd24" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/request_response/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/request_response/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/request_response/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/request_response/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DjangoBase/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2207">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="-119">
+              <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -24,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/request_response/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -48,10 +50,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/request_response/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,15 +90,15 @@
         <option value="$PROJECT_DIR$/user/urls.py" />
         <option value="$PROJECT_DIR$/request_response/urls.py" />
         <option value="$PROJECT_DIR$/book/urls.py" />
-        <option value="$PROJECT_DIR$/apps/request_response/urls.py" />
-        <option value="$PROJECT_DIR$/DjangoBase/settings.py" />
         <option value="$PROJECT_DIR$/DjangoBase/urls.py" />
+        <option value="$PROJECT_DIR$/DjangoBase/settings.py" />
         <option value="$PROJECT_DIR$/apps/request_response/views.py" />
+        <option value="$PROJECT_DIR$/apps/request_response/urls.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="607" />
+    <option name="x" value="606" />
     <option name="y" value="27" />
     <option name="width" value="1290" />
     <option name="height" value="859" />
@@ -123,6 +125,11 @@
               <item name="DjangoBase" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="request_response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoBase" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoBase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +207,7 @@
       <workItem from="1592885722505" duration="2210000" />
       <workItem from="1593179773571" duration="2529000" />
       <workItem from="1593195127648" duration="1977000" />
-      <workItem from="1593255430908" duration="6848000" />
+      <workItem from="1593255430908" duration="8145000" />
     </task>
     <task id="LOCAL-00001" summary="注册">
       <created>1593259434334</created>
@@ -237,14 +244,28 @@
       <option name="project" value="LOCAL" />
       <updated>1593289730369</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1593289928646</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593289928647</updated>
+    </task>
+    <task id="LOCAL-00007" summary=" 表单类型请求体数据(Form Data)">
+      <created>1593290309034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593290309034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23474000" />
+    <option name="totallyTimeSpent" value="24771000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="607" y="27" width="1290" height="859" extended-state="0" />
+    <frame x="606" y="27" width="1290" height="859" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17152104" />
@@ -252,13 +273,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.042016808" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.042016808" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.12464986" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292011" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32913166" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.042016808" />
@@ -277,10 +298,12 @@
     <MESSAGE value="注册" />
     <MESSAGE value="登录" />
     <MESSAGE value="提取查询字符串数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="提取查询字符串数据" />
+    <MESSAGE value="update" />
+    <MESSAGE value=" 表单类型请求体数据(Form Data)" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 表单类型请求体数据(Form Data)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DjangoBase$manage.coverage" NAME="manage Coverage Results" MODIFIED="1593289679151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DjangoBase$manage.coverage" NAME="manage Coverage Results" MODIFIED="1593290744012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -326,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoBase/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2207">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoBase/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -340,10 +356,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoBase/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/request_response/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -352,10 +375,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/request_response/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
