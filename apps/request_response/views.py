@@ -4,6 +4,7 @@ from django import http
 from django.shortcuts import render, redirect
 
 # Create your views here.
+from django.urls import reverse
 from django.views import View
 
 
@@ -87,3 +88,27 @@ class TestRedirectView(View):
     def post(self,request):
 
         return redirect('/redirect/')
+
+
+# reverse()：重定向反向解析
+
+class RedirectView1(View):
+
+
+    def get(self,request):
+
+        return http.HttpResponse('重定向1')
+
+
+class TestRedirectView1(View):
+
+    def post(self,request):
+
+        # 将用户通过重定向引导到首页
+        # return redirect('/index/')
+
+        # ret_url = reverse('总路由别名:子路由别名')
+
+        red = reverse('request_response1:redirect')
+
+        return redirect(red)

@@ -26,5 +26,10 @@ urlpatterns = [
     #注册子路由     
     path('',include('user.urls')),
 
-    path('',include('request_response.urls')),
+    # path('',include('request_response.urls')),
+
+    # 请求和响应
+    # path('', include(('子路由', '子应用名字'),
+    # namespace='总路由别名，可以随便命名')),
+    path('',include(('request_response.urls','request_response'),namespace='request_response1'))
 ]

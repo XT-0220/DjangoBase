@@ -18,4 +18,9 @@ path('redirect/',views.RedirectView.as_view()),
 
 path('testredirect/',views.TestRedirectView.as_view()),
 
+path('redirect1/',views.RedirectView1.as_view(),name='redirect'),
+
+path('testredirect1/',views.TestRedirectView1.as_view()),
+
+
 ]
