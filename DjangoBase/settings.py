@@ -67,6 +67,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'middlewares.TestMiddleWare1',
+    'middlewares.TestMiddleWare2',
 ]
 
 # 路由的入口（miniweb项目我们是自己实现的）
