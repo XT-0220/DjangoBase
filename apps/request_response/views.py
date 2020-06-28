@@ -40,3 +40,22 @@ class JsonDataView(View):
         password = request.POST.get('password')
 
         return http.HttpResponse('json数据：%s--%s' % (username,password))
+
+
+
+# HttpResponse
+
+class Response1View(View):
+    """测试HttpResponse
+    http://127.0.0.1:8000/response1/
+    """
+
+    def get(self, request):
+        # 使用HttpResponse构造响应数据
+        # return http.HttpResponse(content='itcast python', status=200)
+        # 可简写
+        # return http.HttpResponse('itcast python')
+
+        # 另外一种写法
+        response = http.HttpResponse('itcast python')
+        return response
