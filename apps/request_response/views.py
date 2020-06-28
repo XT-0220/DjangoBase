@@ -59,3 +59,14 @@ class Response1View(View):
         # 另外一种写法
         response = http.HttpResponse('itcast python')
         return response
+
+# JsonResponse：响应JSON
+class JsonResponseView(View):
+
+    def get(self,request):
+
+        dist_data = {
+            'username': 'xt',
+            'age': 20
+        }
+        return http.JsonResponse(dist_data)

@@ -12,5 +12,7 @@ path('json/',views.JsonDataView.as_view()),
 
 path('response/',views.Response1View.as_view()),
 
+path('json1/',views.JsonResponseView.as_view()),
+
 
 ]
