@@ -17,8 +17,6 @@ import os,sys
 # 作用：就是用于在工程内部构建、拼接文件路径的。说明：需要用到就看一下，没有什么可拼接的路径，就不管他
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-print('BASE_DIR : %s' , BASE_DIR)
-
 sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
 
 # Quick-start development settings - unsuitable for production
@@ -56,6 +54,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'user',
     'request_response',
+    'book',
 
 ]
 # 中间件
