@@ -40,8 +40,17 @@ class AddView(View):
         # 4.update()  模型类.objects.filter().update()
         # BookInfo.objects.filter(btitle = 'MANYMAN').update(btitle='manyman')
 
+        # return http.HttpResponse('增删改查-增')
 
 
 
+        # 5. 模型类对象delete
+        # book = BookInfo.objects.filter(btitle = 'manyman')
+        # book.delete()
 
-        return http.HttpResponse('增删改查-增')
+        # 6.is_delete()
+        book = BookInfo.objects.get(btitle = 'manymale')
+        book.delete()
+
+
+        return http.HttpResponse('增删改查-删')
