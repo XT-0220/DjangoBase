@@ -13,7 +13,7 @@ class AddView(View):
         # 1.save()
         # book = BookInfo()
         #
-        # book.btitle = 'MANYMAN'
+        # book.btitle = '1'
         # book.bcomment = 20
         # book.bpub_date = '2020-6-29'
         # book.bread = 33
@@ -49,8 +49,21 @@ class AddView(View):
         # book.delete()
 
         # 6.is_delete()
-        book = BookInfo.objects.get(btitle = 'manymale')
-        book.delete()
+        book = BookInfo.objects.get(id=9)
+        book.is_delete = True
+        book.save()
 
 
         return http.HttpResponse('增删改查-删')
+
+
+class QueryView(View):
+
+    def get(self,request):
+
+
+        # 1.get()单一查询
+        book = BookInfo.objects.get(id = 9)
+        print(book)
+
+        return http.HttpResponse('查询')
